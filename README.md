@@ -1,3 +1,5 @@
+This fork replaces the High Contrast theme with the "Plain Dark" theme from the "Color Themes for Visual Studio" extension, instead of the Dark theme that comes preinstalled with VS2017.
+
 # Visual Studio 2017 high contrast hack
 
 Copyright 2017 Pedro J. Estébanez (MIT-licensed)
