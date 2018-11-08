@@ -87,9 +87,9 @@ if errorlevel 1 (
 	echo High contrast theme already backed up
 )
 
-echo Copying the "Plain Dark" theme over the high contrast theme
+echo Copying the "Plain Dark Fixed" theme over the high contrast theme
 rem reg copy %themes_key%\{1ded0138-47ce-435e-84ef-9ec1f439b749} %themes_key%\{a5c004b4-2d4b-494e-bf01-45fc492522c7} /s /f > nul
- reg copy %themes_key%\{ebed94bb-2cbe-413a-87ad-8bed2b19d350} %themes_key%\{a5c004b4-2d4b-494e-bf01-45fc492522c7} /s /f > nul
+ reg copy %themes_key%\{2d27c3db-faa7-4cee-9d19-32331281042f} %themes_key%\{a5c004b4-2d4b-494e-bf01-45fc492522c7} /s /f > nul
 if errorlevel 1 (
 	echo Unable to make the copy.
 	set ok=0
